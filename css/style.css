@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-bg-color {
+    background-color: #264653;
+}
+
+.btn-bg-color {
+    background-color: #E76F51;
+}
