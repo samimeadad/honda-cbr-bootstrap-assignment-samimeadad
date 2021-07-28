@@ -20,8 +20,8 @@
 </head>
 
 <body>
-    <header class="header-bg-color">
-        <section>
+    <header class="header-bg-color pb-5">
+        <section class="container mb-5">
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +34,7 @@
                             <a class="nav-link active me-3" aria-current="page" href="#">News</a>
                             <a class="nav-link active me-5" aria-current="page" href="#">Contact</a>
                         </div>
-                        <div>
+                        <div class="navbar-nav ms-5">
                             <button class="btn btn-bg-color text-white" type="submit">Login</button>
                         </div>
                     </div>
@@ -42,12 +42,47 @@
             </nav>
         </section>
 
-        <section class="my-5">
-            <div class="">
-                <p class="fw-light">Computer-controlled digital transistorized with electronic advance</p>
-            </div>
-            <div class="">
+        <section class="container my-5 d-flex align-items-center">
+            <div class="w-50 ms-5">
+                <div class="">
+                    <p class="fw-lighter text-white">Computer-controlled digital transistorized with electronic advance</p>
+                    <h1 class="text-white fw-bold mt-3">Honda CBR 300R</h1>
+                    <p class="text-white w-75 mt-3">
+                        Ahh yes, the CBR300R – a lightweight, easy to maneuver, easy to maintain, fuel-sipping, beginner bike prodigy. The CBR300R has successfully cemented itself in the hearts and minds of the entry-level faithful.
+                    </p>
+                </div>
+                <div class="">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-bg-color text-white px-4 py-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Purchase
+                    </button>
 
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Purchase Information</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                        If you’ve got a soft spot for sportbike design and Grand Prix stylings, then the 2021 Honda CBR300R is your sweet spot between form and function. It’s narrow, light, and a total blast to ride around town and on
+                                        twisty back roads. The single-cylinder engine offers great fuel economy, with smooth and friendly torque delivery. And the affordable cost and responsive handling makes it a terrific bike for first-time riders,
+                                        and for those looking to grow their garage. There’s even a version available with our anti-lock braking system. Plus, this year the CBR300R brings hot new graphics in two color choices. Time to get riding!
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ms-5">
+                <img class="img-fluid" src="images/header-bike.png" alt="" />
             </div>
         </section>
     </header>
