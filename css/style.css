@@ -19,3 +19,10 @@ body {
     color: #E76F51;
     font-size: .75rem !important;
 }
+
+.grayscale-image {
+    /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(100%);
+    /* For other browsers */
+    filter: grayscale(100%);
+}
