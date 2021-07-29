@@ -1,13 +1,16 @@
+/* Generic Styles for Body */
 body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 
+/* Header Background Color Override */
 .header-bg-color {
     background-color: #264653;
 }
 
+/* Button Background Color Override */
 .btn-bg-color {
     background-color: #E76F51;
 }
