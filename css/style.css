@@ -37,3 +37,15 @@ body {
     /* For other browsers */
     filter: grayscale(100%);
 }
+
+.accordion-border-color {
+    border-color: #D5E5FB !important;
+}
+
+.accordion-header-text-color {
+    color: #383838 !important;
+}
+
+.accordion-body-text-color {
+    color: #7E848C !important;
+}
