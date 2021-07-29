@@ -15,11 +15,22 @@ body {
     background-color: #E76F51;
 }
 
-.text-color-oragne {
-    color: #E76F51;
+/* Smaller text size */
+.tiny-text-size {
     font-size: .75rem !important;
 }
 
+/* Orange Text Color For some special case */
+.text-color-oragne {
+    color: #E76F51;
+}
+
+/* custom margin for section top */
+.custom-margin {
+    margin-top: 10rem !important;
+}
+
+/* style for gray-scale fetured bike image */
 .grayscale-image {
     /* Safari 6.0 - 9.0 */
     -webkit-filter: grayscale(100%);
