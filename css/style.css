@@ -38,14 +38,17 @@ body {
     filter: grayscale(100%);
 }
 
+/* Custom Border Color For FAQ Section */
 .accordion-border-color {
     border-color: #D5E5FB !important;
 }
 
+/* Custom Header Text Color for FAQ Section */
 .accordion-header-text-color {
     color: #383838 !important;
 }
 
+/* Custom Body Text Color for FAQ Section */
 .accordion-body-text-color {
     color: #7E848C !important;
 }
