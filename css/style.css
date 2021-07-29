@@ -1,7 +1,5 @@
 /* Generic Styles for Body */
 body {
-    margin: 0;
-    padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -27,7 +25,7 @@ body {
 
 /* custom margin for section top */
 .custom-margin {
-    margin-top: 10rem !important;
+    margin-top: 7rem !important;
 }
 
 /* style for gray-scale fetured bike image */
