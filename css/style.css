@@ -14,3 +14,8 @@ body {
 .btn-bg-color {
     background-color: #E76F51;
 }
+
+.text-color-oragne {
+    color: #E76F51;
+    font-size: .75rem !important;
+}
